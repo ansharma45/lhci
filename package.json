@@ -1,1 +1,6 @@
-{}
+{
+  "scripts": {
+    "lhci:server": "lhci server --storage.storageMethod=sql --storage.sqlDialect=sqlite --storage.sqlDatabasePath=./db.sql",
+    "wizard": "lhci wizard"
+  }
+}
